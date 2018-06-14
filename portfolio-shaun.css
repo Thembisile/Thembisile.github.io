@@ -1,12 +1,7 @@
-.header {
-  background-color: powderblue;
-  padding: 5px;
-  margin: 5px;
-}
-.profile {
-}
+
 h1 {
   padding: 5px;
+  margin: 5px;
 }
 
 .subhead {
@@ -24,6 +19,11 @@ ul {
   background-color: grey;
 }
 
+#footer-end {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
 
 li {
   padding: 5px;
@@ -31,63 +31,26 @@ li {
   margin-right: 5px;
 }
 
-#mySidenav a {
-    position: absolute;
-    left: -20px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 80px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-}
-
-#para p:hover {
-  color : blue;
-  left: 0;
-}
-
-#mySidenav a:hover {
-    left: 0 ;
-}
-
 #about {
-    top: 20px;
-    background-color: #4CAF50;
-}
-
-#blog {
-    top: 80px;
-    background-color: #2196F3;
-}
-
-#projects {
-    top: 140px;
-    background-color: #f44336;
-}
-
-#contact {
-    top: 200px;
-    background-color: #555
+  padding : 5px;
+  margin: 8px;
+  font-size: 16px;
 }
 
 
 .icon-bar {
-    width: 74.6%;
     background-color: #555;
     overflow: auto;
-    margin-left: 163px;
 }
 
 .icon-bar a {
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
-    padding: 12px 0;
+    padding: 10px 0px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .icon-bar a:hover {
